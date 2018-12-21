@@ -1,0 +1,16 @@
+{
+  "name": "MyZosChainlinked",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chainlinked": "^1.0.3",
+    "zos-lib": "^2.0.2"
+  }
+}

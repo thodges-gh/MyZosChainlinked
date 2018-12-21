@@ -1,0 +1,7 @@
+build/
+migrations/
+node_modules/
+.zos.session
+package-lock.json
+zos.json
+zos.*.json
