@@ -29,7 +29,7 @@ contract MyContract is Chainlinked, Initializable {
   );
 
   function initialize() initializer public {
-    newChainlinkWithENS(0x112234455C3a32FD11230C42E7Bccd4A84e02010, 0xead9c0180f6d685e43522fcfe277c2f0465fe930fb32b5b415826eacf9803727);
+    newChainlinkWithENS(ROPSTEN_ENS, ROPSTEN_CHAINLINK_ENS);
   }
 
   function requestEthereumPrice(string _jobId, string _currency) 
